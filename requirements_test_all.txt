@@ -194,7 +194,7 @@ aiobafi6==0.9.0
 aiobotocore==2.9.1
 
 # homeassistant.components.comelit
-aiocomelit==0.8.2
+aiocomelit==0.8.3
 
 # homeassistant.components.dhcp
 aiodiscover==1.6.0
@@ -827,7 +827,7 @@ habitipy==0.2.0
 habluetooth==2.4.0
 
 # homeassistant.components.cloud
-hass-nabucasa==0.76.0
+hass-nabucasa==0.77.0
 
 # homeassistant.components.conversation
 hassil==1.6.1
@@ -852,10 +852,10 @@ hole==0.8.0
 
 # homeassistant.components.holiday
 # homeassistant.components.workday
-holidays==0.41
+holidays==0.42
 
 # homeassistant.components.frontend
-home-assistant-frontend==20240202.0
+home-assistant-frontend==20240205.0
 
 # homeassistant.components.conversation
 home-assistant-intents==2024.2.2
@@ -1687,7 +1687,7 @@ python-MotionMount==0.3.1
 python-awair==0.2.4
 
 # homeassistant.components.bring
-python-bring-api==2.0.0
+python-bring-api==3.0.0
 
 # homeassistant.components.bsblan
 python-bsblan==0.5.18
@@ -1714,7 +1714,7 @@ python-juicenet==1.1.0
 python-kasa[speedups]==0.6.2.1
 
 # homeassistant.components.matter
-python-matter-server==5.4.0
+python-matter-server==5.4.1
 
 # homeassistant.components.xiaomi_miio
 python-miio==0.5.12
@@ -1863,7 +1863,7 @@ reolink-aio==0.8.7
 rflink==0.0.65
 
 # homeassistant.components.ring
-ring-doorbell[listen]==0.8.6
+ring-doorbell[listen]==0.8.7
 
 # homeassistant.components.roku
 rokuecp==0.19.0
