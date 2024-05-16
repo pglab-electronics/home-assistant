@@ -1,4 +1,5 @@
 """Support for AVM FRITZ!Box update platform."""
+
 from __future__ import annotations
 
 from dataclasses import dataclass
@@ -15,8 +16,12 @@ from homeassistant.const import EntityCategory
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.entity_platform import AddEntitiesCallback
 
-from .common import AvmWrapper, FritzBoxBaseCoordinatorEntity, FritzEntityDescription
 from .const import DOMAIN
+from .coordinator import (
+    AvmWrapper,
+    FritzBoxBaseCoordinatorEntity,
+    FritzEntityDescription,
+)
 
 _LOGGER = logging.getLogger(__name__)
 
